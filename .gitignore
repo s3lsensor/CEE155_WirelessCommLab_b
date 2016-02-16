@@ -18,6 +18,7 @@
 *.pyc
 # Target objects
 *.sky
+!Makefile.sky
 *.d
 *.ihex
 *.data
