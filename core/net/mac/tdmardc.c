@@ -408,7 +408,7 @@ static void input(void)
   uint8_t packet_id = packetbuf_attr(PACKETBUF_ATTR_PACKET_ID);
 
 
-  //lab 5
+  //lab 6
 
   if (cc2420_get_channel() == 20 && (packet_id % 10) != 0)
   {
