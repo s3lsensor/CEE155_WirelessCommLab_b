@@ -30,6 +30,7 @@ contiki*.a
 
 # Log files
 log*
+!log.h
 *.log
 *.csv
 
