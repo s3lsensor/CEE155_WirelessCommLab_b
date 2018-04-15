@@ -410,7 +410,12 @@ static void input(void)
 
   //lab 6
 
-  if (cc2420_get_channel() == 20 && (packet_id % 10) != 0)
+  // if (cc2420_get_channel() == 20 && (packet_id % 10) != 0)
+  // {
+  //   bkn_pkt[sent_sn_id] = packet_id;
+  // }
+
+  if ((packet_id % 10) != 0)
   {
     bkn_pkt[sent_sn_id] = packet_id;
   }
